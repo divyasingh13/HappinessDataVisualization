@@ -134,7 +134,8 @@ fig3 = px.violin(
     box=True,
     points='all',
     template='simple_white',
-    color_discrete_sequence=px.colors.qualitative.Pastel
+    color_discrete_sequence=px.colors.qualitative.Pastel,
+    title=" "
 )
 
 fig3.update_traces(
